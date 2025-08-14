@@ -9,3 +9,7 @@ This api takes user entered weightage cover percentage and investment amount to 
 sip.py contains the implementation code for sip calculator takes initial balance the initial invested amount , years to invest , annuat interest rate the gain percentage , monthly investment amount , per year increase in monthly investment amount percentage.
 
 API GET for SIP calculation => http://localhost:8000/sip?initial_balance=0&years=30&annual_interest_rate=16&monthly_investment=10000&yearly_increment_percent=10
+
+# HOW IT WORKS
+
+first run kse1.py file with "python kse1.py" command ensure kse100.xlsx file is downloaded from this repository and placed in same folder than run sip.py with python to interact terminal based than by simply running main.py file by using uvicorn server command all apis are tested with postman.
